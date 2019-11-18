@@ -8,8 +8,7 @@ public class GainModifier : MonoBehaviour
 {
     public Button button;
     public List<GameResource> gameResources;
-    public float WealthModifyBy = 2f;
-    public float EnergyModifyBy = 2f;
+    public List<float> modifyBy;
     void Start()
     {
         button.onClick.AddListener(ModifyResourceGain);
@@ -17,8 +16,12 @@ public class GainModifier : MonoBehaviour
 
     private void ModifyResourceGain()
     {
-        gameResources[0].modifier *= WealthModifyBy;
-        gameResources[1].modifier *= EnergyModifyBy;
+        int i = 0;
+        while(i<=gameResources.Count)
+        {
+            gameResources[i].modifier += modifyBy[i];
+            i++;
+        }
     }
 
     // Update is called once per frame

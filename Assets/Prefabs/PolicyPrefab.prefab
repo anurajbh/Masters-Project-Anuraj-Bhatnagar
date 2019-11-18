@@ -138,8 +138,7 @@ MonoBehaviour:
   gameResources:
   - {fileID: 0}
   - {fileID: 0}
-  EnergyUse: 8
-  WealthUse: 8
+  ResourceUse: []
   button: {fileID: 620595953}
 --- !u!1 &672150619
 GameObject:
@@ -358,8 +357,7 @@ MonoBehaviour:
   gameResources:
   - {fileID: 0}
   - {fileID: 0}
-  EnergyUse: 4
-  WealthUse: 4
+  ResourceUse: []
   button: {fileID: 806182653}
 --- !u!1 &1155546095
 GameObject:
@@ -538,7 +536,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &352187932815193913
 RectTransform:
   m_ObjectHideFlags: 0
@@ -681,6 +679,5 @@ MonoBehaviour:
   gameResources:
   - {fileID: 0}
   - {fileID: 0}
-  EnergyUse: 2
-  WealthUse: 2
+  ResourceUse: []
   button: {fileID: 3059288986245851798}
