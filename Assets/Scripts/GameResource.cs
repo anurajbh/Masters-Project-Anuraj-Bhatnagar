@@ -27,6 +27,5 @@ public class GameResource : MonoBehaviour
             value += modifier;
             timer = 0f;
         }
-        print(value);
     }
 }

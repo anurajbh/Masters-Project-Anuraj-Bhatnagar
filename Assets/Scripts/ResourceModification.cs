@@ -34,7 +34,7 @@ public class ResourceModification : MonoBehaviour
     {
         pressed = true;
         int i = 0;
-        while(i<=gameResources.Count)//modifying each resource that the policy uses
+        while(i<gameResources.Count)//modifying each resource that the policy uses
         {
             gameResources[i].value -= ResourceUse[i];
             i++;

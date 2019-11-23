@@ -17,7 +17,7 @@ public class GainModifier : MonoBehaviour
     private void ModifyResourceGain()
     {
         int i = 0;
-        while(i<=gameResources.Count)
+        while(i<gameResources.Count)
         {
             gameResources[i].modifier += modifyBy[i];
             i++;
