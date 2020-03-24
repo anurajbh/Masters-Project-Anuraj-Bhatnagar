@@ -5,6 +5,8 @@ using UnityEngine;
 public class ResearchTimer : MonoBehaviour
 {
     // Start is called before the first frame update
+    public float timeToResearch;
+    public float timer =0f;
     void Start()
     {
         

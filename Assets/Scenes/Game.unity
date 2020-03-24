@@ -264,6 +264,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 36374234}
   m_CullTransparentMesh: 0
+--- !u!1 &42832510 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5697636511382365909, guid: de5fc653032c163418ca367d1a197636,
+    type: 3}
+  m_PrefabInstance: {fileID: 552777738}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &42832516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42832510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a4f146c532a46a45b94799b6031847c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToResearch: 3
+  timer: 0
 --- !u!1 &58220755
 GameObject:
   m_ObjectHideFlags: 0
@@ -1310,6 +1330,16 @@ PrefabInstance:
       propertyPath: gameResources.Array.data[2]
       value: 
       objectReference: {fileID: 979239384}
+    - target: {fileID: 3888885481491129813, guid: de5fc653032c163418ca367d1a197636,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3888885481491129813, guid: de5fc653032c163418ca367d1a197636,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5697636511382365908, guid: de5fc653032c163418ca367d1a197636,
         type: 3}
       propertyPath: m_LocalPosition.x

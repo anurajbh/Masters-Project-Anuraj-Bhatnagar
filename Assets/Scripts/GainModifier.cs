@@ -9,9 +9,25 @@ public class GainModifier : MonoBehaviour
     public Button button;
     public List<GameResource> gameResources;
     public List<float> modifyBy;
+    ResearchTimer researchTimer;
+    bool pressedButton = false;
     void Awake()
     {
-        button.onClick.AddListener(ModifyResourceGain);
+        researchTimer = gameObject.GetComponent<ResearchTimer>();
+        button.onClick.AddListener(ButtonPress);
+    }
+    void ButtonPress()
+    {
+        pressedButton = true;
+    }
+    private void ImplementPolicy()
+    {
+        researchTimer.timer += Time.deltaTime;
+        if(researchTimer.timer>=researchTimer.timeToResearch)
+        {
+            ModifyResourceGain();
+            pressedButton = false;
+        }
     }
 
     private void ModifyResourceGain()
@@ -27,6 +43,9 @@ public class GainModifier : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(pressedButton)
+        {
+            ImplementPolicy();
+        }
     }
 }
