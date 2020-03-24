@@ -14,7 +14,7 @@ public class ResourceModification : MonoBehaviour
     public List<Button> otherButtons;
     Boolean pressedOther = false;
     //to-do: Add other ways for Resource values to change
-    void Start()
+    void Awake()
     {
         button.onClick.AddListener(ResourceUsage);//Method for reducing resource use for each resource that the policy/decision requires
         int i = 0;

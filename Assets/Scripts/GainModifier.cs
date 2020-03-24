@@ -9,7 +9,7 @@ public class GainModifier : MonoBehaviour
     public Button button;
     public List<GameResource> gameResources;
     public List<float> modifyBy;
-    void Start()
+    void Awake()
     {
         button.onClick.AddListener(ModifyResourceGain);
     }
