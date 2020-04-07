@@ -10,10 +10,13 @@ public class GainModifier : MonoBehaviour
     public List<GameResource> gameResources;
     public List<float> modifyBy;
     ResearchTimer researchTimer;
-    bool pressedButton = false;
+    public bool pressedButton = false;
     void Awake()
     {
         researchTimer = gameObject.GetComponent<ResearchTimer>();
+        gameResources[0] = GameObject.Find("Energy").GetComponent<GameResource>();
+        gameResources[1] = GameObject.Find("Wealth").GetComponent<GameResource>();
+        gameResources[2] = GameObject.Find("Renewables").GetComponent<GameResource>();
         button.onClick.AddListener(ButtonPress);
     }
     void ButtonPress()

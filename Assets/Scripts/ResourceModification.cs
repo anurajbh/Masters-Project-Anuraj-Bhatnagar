@@ -13,6 +13,10 @@ public class ResourceModification : MonoBehaviour
     Boolean pressed = false;
     public List<Button> otherButtons;
     Boolean pressedOther = false;
+    public bool available = false;
+    public UnlockButton unlockButton;
+    public bool unlocked = false;
+    public Text text;
     //to-do: Add other ways for Resource values to change
     void Awake()
     {
@@ -23,6 +27,20 @@ public class ResourceModification : MonoBehaviour
             otherButtons[i].onClick.AddListener(PressedTheOtherButtons);//check if narratively conflicting buttons are pressed
             i++;
         }
+        if(unlockButton)
+        {
+            text = gameObject.transform.Find("UnlockNeeded").gameObject.GetComponent<Text>();
+            text.text = unlockButton.gameObject.name;
+        }
+        else if(!unlockButton)
+        {
+            text = null;
+            unlocked = true;
+        }
+        gameResources[0] = GameObject.Find("Energy").GetComponent<GameResource>();
+        gameResources[1] = GameObject.Find("Wealth").GetComponent<GameResource>();
+        gameResources[2] = GameObject.Find("Renewables").GetComponent<GameResource>();
+
     }
 
     private void PressedTheOtherButtons()
@@ -45,6 +63,39 @@ public class ResourceModification : MonoBehaviour
     private void Update()
     {
         CheckIfResourceAvailable();//method to check if resource values are high enough to spend a resource
+        CheckIfUnlockNeeded();
+        CheckIfCanBeExecuted();
+    }
+
+    private void CheckIfCanBeExecuted()
+    {
+        if(unlocked && available)
+        {
+            button.interactable = true;
+        }
+        else if(!unlocked && available)
+        {
+            button.interactable = false;
+        }
+        else if(unlocked && !available)
+        {
+            button.interactable = false;
+        }
+    }
+
+    private void CheckIfUnlockNeeded()
+    {
+        if(unlockButton)
+        {
+            if(unlockButton.unlock)
+            {
+                unlocked = true;
+            }
+            else if(!unlockButton.unlock)
+            {
+                unlocked = false;
+            }
+        }
     }
 
     private void CheckIfResourceAvailable()
@@ -54,11 +105,11 @@ public class ResourceModification : MonoBehaviour
         {
             if ((gameResources[i].value - ResourceUse[i])<0)
             {
-                button.interactable = false;
+                available = false;
             }
             else if ((gameResources[i].value - ResourceUse[i]) >= 0 && !pressed && !pressedOther)
             {
-                button.interactable = true;
+                available = true;
             }
             i++;
         }
