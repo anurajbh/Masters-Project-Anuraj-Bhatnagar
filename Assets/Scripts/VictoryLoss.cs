@@ -31,7 +31,7 @@ public class VictoryLoss : MonoBehaviour
         {
             if(!haveLost)
             {
-                if (hidden.nonRenew <= 0 || hidden.wealth <= 0)//depleted hidden player
+                if (hidden.nonRenew <= 0f || hidden.wealth <= 0f)//depleted hidden player
                 {
                     print("Resources have run out");
                     return true;
@@ -51,6 +51,16 @@ public class VictoryLoss : MonoBehaviour
                     print("Hurricane");
                     return true;
                 }
+                if(hidden.satisfaction <=0f)
+                {
+                    print("Voted Out!");
+                    return true;
+                }
+                if(hidden.discontent >= 1000f)
+                {
+                    print("Rebellion!");
+                    return true;
+                }
             }
             
         }
@@ -66,7 +76,7 @@ public class VictoryLoss : MonoBehaviour
             {
                 if (!haveWon)
                 {
-                    if (hidden.nonRenew > 0 && hidden.wealth > 0)//hidden player should not be depleted
+                    if (hidden.nonRenew > 0f && hidden.wealth > 0f)//hidden player should not be depleted
                     {
                         if (gameResources[2].modifier > 10 && gameResources[2].value > 1000)// renewable and sustainable
                         {

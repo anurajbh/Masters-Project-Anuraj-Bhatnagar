@@ -17,6 +17,9 @@ public class ResourceModification : MonoBehaviour
     public UnlockButton unlockButton;
     public bool unlocked = false;
     public Text text;
+    public float satModifier;
+    public float disModifier;
+    public HiddenPlayer hiddenPlayer;
     //to-do: Add other ways for Resource values to change
     void Awake()
     {
@@ -40,6 +43,7 @@ public class ResourceModification : MonoBehaviour
         gameResources[0] = GameObject.Find("Energy").GetComponent<GameResource>();
         gameResources[1] = GameObject.Find("Wealth").GetComponent<GameResource>();
         gameResources[2] = GameObject.Find("Renewables").GetComponent<GameResource>();
+        hiddenPlayer = GameObject.Find("HiddenPlayer").GetComponent<HiddenPlayer>();
 
     }
 
@@ -57,6 +61,10 @@ public class ResourceModification : MonoBehaviour
             gameResources[i].value -= ResourceUse[i];
             i++;
         }
+        hiddenPlayer.modifySatisfaction(satModifier);
+        hiddenPlayer.modifyDiscontent(disModifier);
+        hiddenPlayer.modifyNonRenew(ResourceUse[0]);
+        hiddenPlayer.modifyWealth(ResourceUse[1]);
     }
 
 
