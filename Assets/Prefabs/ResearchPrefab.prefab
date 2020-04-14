@@ -559,7 +559,7 @@ GameObject:
   - component: {fileID: 1438746115808575884}
   m_Layer: 5
   m_Name: ResearchPrefab
-  m_TagString: Untagged
+  m_TagString: Research
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -720,9 +720,9 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   ResourceUse:
-  - 3
-  - 4
-  - 5
+  - -3
+  - -4
+  - -5
   button: {fileID: 6693863899800870747}
   otherButtons: []
   available: 0

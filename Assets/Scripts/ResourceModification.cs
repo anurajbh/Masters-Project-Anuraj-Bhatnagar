@@ -20,6 +20,7 @@ public class ResourceModification : MonoBehaviour
     public float satModifier;
     public float disModifier;
     public HiddenPlayer hiddenPlayer;
+    public GainModifier gainModifier;
     //to-do: Add other ways for Resource values to change
     void Awake()
     {
@@ -44,7 +45,7 @@ public class ResourceModification : MonoBehaviour
         gameResources[1] = GameObject.Find("Wealth").GetComponent<GameResource>();
         gameResources[2] = GameObject.Find("Renewables").GetComponent<GameResource>();
         hiddenPlayer = GameObject.Find("HiddenPlayer").GetComponent<HiddenPlayer>();
-
+        gainModifier = GetComponent<GainModifier>();
     }
 
     private void PressedTheOtherButtons()
@@ -63,8 +64,8 @@ public class ResourceModification : MonoBehaviour
         }
         hiddenPlayer.modifySatisfaction(satModifier);
         hiddenPlayer.modifyDiscontent(disModifier);
-        hiddenPlayer.modifyNonRenew(ResourceUse[0]);
-        hiddenPlayer.modifyWealth(ResourceUse[1]);
+        hiddenPlayer.modifyNonRenew(-ResourceUse[0]);
+        hiddenPlayer.modifyWealth(-ResourceUse[1]);
     }
 
 
@@ -111,11 +112,11 @@ public class ResourceModification : MonoBehaviour
         int i = 0;
         while(i<gameResources.Count)
         {
-            if ((gameResources[i].value - ResourceUse[i])<0)
+            if ((gameResources[i].value - ResourceUse[i])<0 ||  pressed &&  gameObject.tag == "Research" || pressedOther || gameObject.tag == "Facility" && gainModifier.pressedButton)
             {
                 available = false;
             }
-            else if ((gameResources[i].value - ResourceUse[i]) >= 0 && !pressed && !pressedOther)
+            else if ((gameResources[i].value - ResourceUse[i]) >= 0 && !pressedOther)
             {
                 available = true;
             }

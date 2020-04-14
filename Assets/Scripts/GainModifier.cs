@@ -30,6 +30,7 @@ public class GainModifier : MonoBehaviour
         {
             ModifyResourceGain();
             pressedButton = false;
+            researchTimer.timer = 0f;
         }
     }
 
