@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameResource : MonoBehaviour
 {
-    public string name;//to-do: Make use of Resource names
     public float value;
 
     public float modifier;
@@ -27,5 +27,6 @@ public class GameResource : MonoBehaviour
             value += modifier;
             timer = 0f;
         }
+
     }
 }
