@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Facility
   - Research
+  - Energy
+  - Wealth
+  - Novel
   layers:
   - Default
   - TransparentFX
