@@ -307,7 +307,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: +
+  m_Text: 
 --- !u!1 &1108014320698443874
 GameObject:
   m_ObjectHideFlags: 0
@@ -401,6 +401,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gainModifier: {fileID: 0}
   text: {fileID: 0}
+  sign: {fileID: 3108067971107439968}
 --- !u!1 &1130937814648323238
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,7 +478,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: +
+  m_Text: 
 --- !u!1 &2077799908253649622
 GameObject:
   m_ObjectHideFlags: 0
@@ -571,6 +572,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gainModifier: {fileID: 0}
   text: {fileID: 0}
+  sign: {fileID: 1233506162752731868}
 --- !u!1 &2427342319053102697
 GameObject:
   m_ObjectHideFlags: 0
@@ -724,7 +726,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: +
+  m_Text: 
 --- !u!1 &5923729925470551876
 GameObject:
   m_ObjectHideFlags: 0
@@ -972,6 +974,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gainModifier: {fileID: 0}
   text: {fileID: 0}
+  sign: {fileID: 526800512863900408}
 --- !u!1 &6693863898997571569
 GameObject:
   m_ObjectHideFlags: 0
