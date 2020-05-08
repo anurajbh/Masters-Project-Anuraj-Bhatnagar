@@ -13,7 +13,7 @@ public class HiddenPlayer : MonoBehaviour
     public GameResource extractNonRenew;
     public float timePeriod;
     public float timer;
-    public float naturalGain =3f;
+    //public float naturalGain =3f;
     public void modifyNonRenew(float stat)
     {
         nonRenew += stat;
@@ -36,7 +36,7 @@ public class HiddenPlayer : MonoBehaviour
         if (timer >= timePeriod)
         {
             modifyWealth(CityWealth.modifier);
-            modifyNonRenew(naturalGain - extractNonRenew.modifier);
+            modifyNonRenew(-extractNonRenew.modifier);
             timer = 0f;
         }
     }

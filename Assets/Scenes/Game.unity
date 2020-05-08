@@ -2406,6 +2406,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2093322442}
   - component: {fileID: 2093322443}
+  - component: {fileID: 2093322444}
   m_Layer: 0
   m_Name: HiddenPlayer
   m_TagString: Untagged
@@ -2439,7 +2440,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 577fa95265a98ba4892ec2d852b5dd1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nonRenew: 1000
+  nonRenew: 100
   wealth: 1000
   satisfaction: 1000
   discontent: 0
@@ -2447,7 +2448,27 @@ MonoBehaviour:
   extractNonRenew: {fileID: 1961799304}
   timePeriod: 2
   timer: 0
-  naturalGain: 3
+--- !u!114 &2093322444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093322441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec7146deb0d2d9d4fb441811e8f438c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hiddenPlayer: {fileID: 2093322443}
+  gameResources:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  timer: 100
+  timeElapsed: 0
+  haveLost: 0
+  haveWon: 0
 --- !u!1 &2096634116
 GameObject:
   m_ObjectHideFlags: 0
