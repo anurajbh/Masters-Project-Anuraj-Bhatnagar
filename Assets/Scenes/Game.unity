@@ -732,7 +732,7 @@ RectTransform:
   - {fileID: 1339696352}
   - {fileID: 750426781}
   m_Father: {fileID: 2100924161}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -821,7 +821,6 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 149}
   m_LocalScale: {x: 11.5, y: 5.6, z: 0}
   m_Children:
-  - {fileID: 1614261462}
   - {fileID: 7215775924059202296}
   m_Father: {fileID: 1932399954}
   m_RootOrder: 1
@@ -932,7 +931,7 @@ RectTransform:
   - {fileID: 449285221}
   - {fileID: 2096634117}
   m_Father: {fileID: 2100924161}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1242,7 +1241,7 @@ PrefabInstance:
     - target: {fileID: 6693863899800870740, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6693863899800870740, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
@@ -1496,7 +1495,7 @@ GameObject:
   - component: {fileID: 1385090592}
   - component: {fileID: 1385090591}
   m_Layer: 5
-  m_Name: Facilities
+  m_Name: FacilityButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1510,16 +1509,16 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1385090589}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.14999999, y: 0.19999999, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -19.999863}
+  m_LocalScale: {x: 3.45, y: 2.24, z: 0}
   m_Children:
   - {fileID: 1944032588}
-  m_Father: {fileID: 2111957863}
+  m_Father: {fileID: 2100924161}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 34.5, y: 33.9}
+  m_AnchoredPosition: {x: 933.5, y: 507.00006}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1385090591
@@ -1587,6 +1586,28 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1385090589}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1614261461}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1385090592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1641,7 +1662,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1614261462
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1650,16 +1671,16 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1614261461}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.14999999, y: 0.19999999, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -19.999863}
+  m_LocalScale: {x: 3.45, y: 2.24, z: 0}
   m_Children:
   - {fileID: 1003034364}
-  m_Father: {fileID: 923364816}
+  m_Father: {fileID: 2100924161}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 34.5, y: 33.9}
+  m_AnchoredPosition: {x: 933.5, y: 507}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1614261463
@@ -1717,6 +1738,28 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 923364815}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1385090589}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1614261461}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -2298,7 +2341,7 @@ RectTransform:
   - {fileID: 1105005965}
   - {fileID: 1164216962}
   m_Father: {fileID: 2100924161}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2573,6 +2616,8 @@ Transform:
   m_LocalPosition: {x: -123, y: 60, z: 169}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
+  - {fileID: 1614261462}
+  - {fileID: 1385090590}
   - {fileID: 1961799303}
   - {fileID: 911193546}
   - {fileID: 979239383}
@@ -2703,7 +2748,6 @@ RectTransform:
   m_LocalScale: {x: 11.5, y: 5.6, z: 0}
   m_Children:
   - {fileID: 5697636511928770270}
-  - {fileID: 1385090590}
   - {fileID: 2119399330}
   m_Father: {fileID: 1932399954}
   m_RootOrder: 0
