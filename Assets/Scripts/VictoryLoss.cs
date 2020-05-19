@@ -12,6 +12,9 @@ public class VictoryLoss : MonoBehaviour
     public float timeElapsed =0;
     public bool haveLost = false;
     public bool haveWon = false;
+    public float discontentFactor = 100f;
+    public float satisfactionFactor = -30f;
+    public float satisfactionNeeded = 500f;
     void Awake()
     {
         hiddenPlayer = gameObject.GetComponent<HiddenPlayer>();
@@ -58,13 +61,13 @@ public class VictoryLoss : MonoBehaviour
                     haveLost = true;
                    // return true;
                 }
-                if(hidden.satisfaction <=0f)
+                if(hidden.satisfaction <=satisfactionFactor)
                 {
                     print("Voted Out!");
                     haveLost = true;
                     //return true;
                 }
-                if(hidden.discontent >= 1000f)
+                if(hidden.discontent >= discontentFactor)
                 {
                     print("Rebellion!");
                     haveLost = true;
@@ -94,9 +97,12 @@ public class VictoryLoss : MonoBehaviour
                         {
                             if (gameResources[0].modifier <= 0)//no non-renewables being mined
                             {
-                                print("Victory!");
-                                haveWon = true;
-                                return true;
+                                if (hiddenPlayer.satisfaction >= satisfactionNeeded)
+                                {
+                                    print("Victory!");
+                                    haveWon = true;
+                                    return true;
+                                }
                                 //TO-DO- Execute Victory Consequence
                             }
                         }

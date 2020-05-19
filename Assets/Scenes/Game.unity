@@ -302,6 +302,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 215557684}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[0]
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[1]
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: -16
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -462,6 +502,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1887262796}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[0]
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[1]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: -12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -648,6 +728,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 55192039}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[0]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[1]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -828,6 +943,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1098033561}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[2]
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[2]
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[1]
+      value: 24
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -1091,6 +1246,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 233597873}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[0]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[1]
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -1369,6 +1564,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 730461826}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[2]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -1645,6 +1870,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1935935518}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[2]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -2009,6 +2264,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1584638081}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[1]
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[0]
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863899800870740, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2164,6 +2449,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 55192039}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571569, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Name
@@ -2349,6 +2664,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1999770051}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[2]
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[1]
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[2]
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -2763,6 +3118,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1036799500}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[0]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[1]
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -3054,6 +3449,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1096833298}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[1]
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[0]
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -3288,7 +3723,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 0
-  modifier: 0.5
+  modifier: 0
   timePeriod: 3
   timer: 0
 --- !u!114 &979239385
@@ -3411,6 +3846,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 55192039}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: -3
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -3627,6 +4087,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1206866398}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[1]
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[0]
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -3813,6 +4308,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1802305702}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[2]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[1]
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[2]
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -4092,6 +4627,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2116884516}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[2]
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[1]
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[2]
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: -10
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -4329,6 +4904,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 815413914}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[1]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[2]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -4476,6 +5086,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 867057285}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[0]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[1]
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -4662,6 +5307,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 55192039}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[2]
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: otherButtons.Array.size
@@ -4672,6 +5327,26 @@ PrefabInstance:
       propertyPath: otherButtons.Array.data[0]
       value: 
       objectReference: {fileID: 1618006537}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[0]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[1]
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -4919,6 +5594,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 327025574}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: -40
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[2]
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[1]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[2]
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -5247,6 +5962,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1990656555}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[2]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[0]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[1]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[2]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -5433,6 +6188,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1646728561}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[1]
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[0]
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -5619,6 +6414,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5697636511928770270}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[2]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[1]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -6015,6 +6845,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 55192039}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[2]
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: otherButtons.Array.size
@@ -6025,6 +6860,26 @@ PrefabInstance:
       propertyPath: otherButtons.Array.data[0]
       value: 
       objectReference: {fileID: 1232943405}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[0]
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[1]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: -20
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -6176,6 +7031,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 494752580}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[0]
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[1]
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -6528,6 +7423,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1166623543}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[2]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[1]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[2]
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -6708,6 +7643,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 815413914}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -6859,6 +7809,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5697636511928770270}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[0]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[1]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: -2
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -7158,6 +8143,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 922945100}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[0]
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[1]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: -9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -7617,6 +8642,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 815413914}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[1]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[2]
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -7888,7 +8943,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 0
-  modifier: 1
+  modifier: 0
   timePeriod: 2
   timer: 0
 --- !u!114 &1961799305
@@ -7973,6 +9028,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1834979691}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[2]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[0]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -8153,6 +9238,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1535947744}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[2]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[0]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[1]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[2]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -8411,6 +9536,9 @@ MonoBehaviour:
   timeElapsed: 0
   haveLost: 0
   haveWon: 0
+  discontentFactor: 500
+  satisfactionFactor: -100
+  satisfactionNeeded: 500
 --- !u!1 &2096634116
 GameObject:
   m_ObjectHideFlags: 0
@@ -8728,6 +9856,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 577469683}
     m_Modifications:
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[2]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: disModifier
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
@@ -8934,6 +10087,16 @@ PrefabInstance:
       propertyPath: modifyBy.Array.data[2]
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[0]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2742528645716188245, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: modifyBy.Array.data[1]
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: gameResources.Array.data[0]
@@ -8949,6 +10112,26 @@ PrefabInstance:
       propertyPath: gameResources.Array.data[2]
       value: 
       objectReference: {fileID: 979239384}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[1]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: ResourceUse.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867194493657486560, guid: 9e0804ab26e42834387155278f67da98,
+        type: 3}
+      propertyPath: satModifier
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6693863898997571575, guid: 9e0804ab26e42834387155278f67da98,
         type: 3}
       propertyPath: m_Text
