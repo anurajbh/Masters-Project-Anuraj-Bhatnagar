@@ -24,6 +24,7 @@ public class ResourceModification : MonoBehaviour
     //to-do: Add other ways for Resource values to change
     void Awake()
     {
+        button = gameObject.GetComponent<Button>();
         button.onClick.AddListener(ResourceUsage);//Method for reducing resource use for each resource that the policy/decision requires
         int i = 0;
         while(i<otherButtons.Count)
@@ -34,7 +35,7 @@ public class ResourceModification : MonoBehaviour
         if(unlockButton)
         {
             text = gameObject.transform.Find("UnlockNeeded").gameObject.GetComponent<Text>();
-            text.text = unlockButton.gameObject.name;
+            text.text = unlockButton.gameObject.name + " Needed";
         }
         else if(!unlockButton)
         {
@@ -110,6 +111,7 @@ public class ResourceModification : MonoBehaviour
     private void CheckIfResourceAvailable()
     {
         int i = 0;
+        int ctr = 0;
         while(i<gameResources.Count)
         {
             if ((gameResources[i].value - ResourceUse[i])<0 ||  pressed &&  gameObject.tag == "Research" || pressedOther || gameObject.tag == "Facility" && gainModifier.pressedButton)
@@ -118,9 +120,13 @@ public class ResourceModification : MonoBehaviour
             }
             else if ((gameResources[i].value - ResourceUse[i]) >= 0 && !pressedOther)
             {
-                available = true;
+                ctr++;
             }
             i++;
+        }
+        if(ctr >= 3)
+        {
+            available = true;
         }
         
     }
