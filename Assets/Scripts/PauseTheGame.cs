@@ -1,7 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PauseTheGame : MonoBehaviour
 {
@@ -10,15 +12,42 @@ public class PauseTheGame : MonoBehaviour
     public Button pauseButton;
 
     public Button playButton;
+
+    public Button restartButton;
+
+    public Button exitButton;
+
+    public Button mainMenuButton;
     private bool paused = false;
-    float timeCurrent;
 
     void Awake()
     {
-        timeCurrent = Time.timeScale;
         pauseButton.onClick.AddListener(PauseGame);
         playButton.onClick.AddListener(Unpause);
+        restartButton.onClick.AddListener(RestartGame);
+        exitButton.onClick.AddListener(ExitGame);
+        mainMenuButton.onClick.AddListener(LoadMainMenu);
     }
+
+    private void LoadMainMenu()
+    {
+        Time.timeScale = 1;
+        Scene scene = SceneManager.GetSceneAt(0);
+        SceneManager.LoadScene(0);
+    }
+
+    private void ExitGame()
+    {
+        Application.Quit();
+    }
+
+    private void RestartGame()
+    {
+        Time.timeScale = 1;
+        Scene scene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(scene.buildIndex);
+    }
+
     void PauseGame()
     {
         paused = true;
@@ -40,7 +69,7 @@ public class PauseTheGame : MonoBehaviour
 
     private void ResumePlay()
     {
-        Time.timeScale = timeCurrent;
+        Time.timeScale = 1;
         panel.SetActive(false);
         pauseButton.interactable = true;
     }

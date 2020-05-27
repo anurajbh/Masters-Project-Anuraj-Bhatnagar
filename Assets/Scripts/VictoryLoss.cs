@@ -15,6 +15,10 @@ public class VictoryLoss : MonoBehaviour
     public float discontentFactor = 100f;
     public float satisfactionFactor = -30f;
     public float satisfactionNeeded = 500f;
+
+    public List<VictoryDefeatHandler> defeatHandlers = new List<VictoryDefeatHandler>();
+
+    public VictoryDefeatHandler victoryHandler;
     void Awake()
     {
         hiddenPlayer = gameObject.GetComponent<HiddenPlayer>();
@@ -39,37 +43,43 @@ public class VictoryLoss : MonoBehaviour
             {
                 if (hidden.nonRenew <= 0f && gameResources[0].modifier >0f)//depleted hidden player
                 {
-                    print("You have exhausted your natural resources");
+                    defeatHandlers[0].gameObject.SetActive(true);//You have exhausted the Earth's natural resources!
+                    Time.timeScale = 0;
                     haveLost = true;
                     //return true;
                 }
                 if (gameResources[1].modifier <= 0 && hidden.wealth <= 0f)//bankrupt
                 {
-                    print("Bankrupt");
+                    defeatHandlers[1].gameObject.SetActive(true);//Your Government has fallen to bankruptcy!
+                    Time.timeScale = 0;
                     haveLost = true;
                    // return true;
                 }
                 if (gameResources[0].modifier <= 0 && gameResources[0].value <= 0 && gameResources[2].modifier <= 0 && gameResources[2].value <= 0)//no energy left and no way to make more
                 {
-                    print("Societal Collapse");
+                    defeatHandlers[2].gameObject.SetActive(true);//You have exhausted all your energy reserves!
+                    Time.timeScale = 0;
                     haveLost = true;
                     //return true;
                 }
                 if (timeElapsed >= timer)//time has run out
                 {
-                    print("Climate Apocalypse");
+                    defeatHandlers[3].gameObject.SetActive(true);//Climate Change has doomed your civilization!
+                    Time.timeScale = 0;
                     haveLost = true;
                    // return true;
                 }
                 if(hidden.satisfaction <=satisfactionFactor)
                 {
-                    print("Voted Out!");
+                    defeatHandlers[4].gameObject.SetActive(true);//The people, unhappy with your policies, have voted you out!
+                    Time.timeScale = 0;
                     haveLost = true;
                     //return true;
                 }
                 if(hidden.discontent >= discontentFactor)
                 {
-                    print("Rebellion!");
+                    defeatHandlers[5].gameObject.SetActive(true);//The people, unhappy with your policies, have forced you out!
+                    Time.timeScale = 0;
                     haveLost = true;
                    // return true;
                 }
@@ -99,11 +109,11 @@ public class VictoryLoss : MonoBehaviour
                             {
                                 if (hiddenPlayer.satisfaction >= satisfactionNeeded)
                                 {
-                                    print("Victory!");
+                                    victoryHandler.gameObject.SetActive(true);
+                                    Time.timeScale = 0;
                                     haveWon = true;
                                     return true;
                                 }
-                                //TO-DO- Execute Victory Consequence
                             }
                         }
                     }
