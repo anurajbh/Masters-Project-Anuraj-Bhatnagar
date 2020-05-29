@@ -14,13 +14,14 @@ public class ZoomHandler : MonoBehaviour
     public float minScaleY;
 
     //public RectTransform currentTransform;
-    //Transform LastTransform;
+    Transform LastTransform;
     //PositionConstraint positionConstraint;
     //TO-DO- find a way to lock rectTransform whilst taking input from scroll wheel
     void Awake()
     {
         currentScaleX = gameObject.transform.position.x;
         currentScaleY = gameObject.transform.position.y;
+        //LastTransform = gameObject.transform;
         //positionConstraint = gameObject.GetComponent<PositionConstraint>();
     }
 
@@ -35,6 +36,7 @@ public class ZoomHandler : MonoBehaviour
         //LastTransform.anchoredPosition = currentTransform.anchoredPosition;
         if(Input.GetAxis("Mouse ScrollWheel")!=0)
         {
+            //LastTransform = gameObject.transform;
             //positionConstraint.constraintActive = true;
             float scroll = Input.GetAxis("Mouse ScrollWheel");
             currentScaleX += scroll;
@@ -56,7 +58,8 @@ public class ZoomHandler : MonoBehaviour
                 currentScaleY = minScaleY;
             }
             gameObject.transform.localScale = new Vector2(currentScaleX, currentScaleY);
-            //currentTransform.anchoredPosition = LastTransform.anchoredPosition;
+            //gameObject.transform.position = LastTransform.position;
+            
 
         }
         /*else if(Input.GetAxis("Mouse ScrollWheel")==0)
