@@ -19368,7 +19368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 577fa95265a98ba4892ec2d852b5dd1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nonRenew: 100
+  nonRenew: 300
   wealth: 1000
   satisfaction: 1000
   discontent: 0
@@ -19398,7 +19398,7 @@ MonoBehaviour:
   haveLost: 0
   haveWon: 0
   discontentFactor: 500
-  satisfactionFactor: -100
+  satisfactionFactor: -200
   satisfactionNeeded: 500
   defeatHandlers:
   - {fileID: 2775556981443499641}
