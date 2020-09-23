@@ -20683,6 +20683,41 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.121568635
       objectReference: {fileID: 0}
+    - target: {fileID: 2018487636575279296, guid: 071b4f549cc6cdd48be493153907c915,
+        type: 3}
+      propertyPath: m_Text
+      value: "Click on buttons to implement research and build facilities.\n\nClick
+        on the facilities/research on the top right to move between research and
+        facilities.\n\nThe + above each button indicates how resources are affected
+        by the button.\n\nClick and drag the Screen to move around. Some buttons
+        will not be visible without moving the screen in this manner. \n\nScroll
+        inwards and outwards to zoom."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2018487636575279296, guid: 071b4f549cc6cdd48be493153907c915,
+        type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2018487636575279297, guid: 071b4f549cc6cdd48be493153907c915,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -285.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2018487636575279297, guid: 071b4f549cc6cdd48be493153907c915,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2018487636575279297, guid: 071b4f549cc6cdd48be493153907c915,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -307.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2018487636575279297, guid: 071b4f549cc6cdd48be493153907c915,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 675.9
+      objectReference: {fileID: 0}
     - target: {fileID: 2018487637344536256, guid: 071b4f549cc6cdd48be493153907c915,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20792,6 +20827,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: InstructionsPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2018487637344536257, guid: 071b4f549cc6cdd48be493153907c915,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 071b4f549cc6cdd48be493153907c915, type: 3}
