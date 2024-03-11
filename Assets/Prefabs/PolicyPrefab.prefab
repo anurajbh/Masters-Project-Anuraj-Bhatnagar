@@ -66,8 +66,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -121,8 +119,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &620595956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,6 +136,15 @@ MonoBehaviour:
   - {fileID: 0}
   ResourceUse: []
   button: {fileID: 620595953}
+  otherButtons: []
+  available: 0
+  unlockButton: {fileID: 0}
+  unlocked: 0
+  text: {fileID: 0}
+  satModifier: 0
+  disModifier: 0
+  hiddenPlayer: {fileID: 0}
+  gainModifier: {fileID: 0}
 --- !u!1 &672150619
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,10 +208,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 0c19b00a1e0dda44db17fac06bdbf0ee, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
@@ -285,8 +288,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -340,8 +341,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &806182656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -359,6 +358,15 @@ MonoBehaviour:
   - {fileID: 0}
   ResourceUse: []
   button: {fileID: 806182653}
+  otherButtons: []
+  available: 0
+  unlockButton: {fileID: 0}
+  unlocked: 0
+  text: {fileID: 0}
+  satModifier: 0
+  disModifier: 0
+  hiddenPlayer: {fileID: 0}
+  gainModifier: {fileID: 0}
 --- !u!1 &1155546095
 GameObject:
   m_ObjectHideFlags: 0
@@ -422,10 +430,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 0c19b00a1e0dda44db17fac06bdbf0ee, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
@@ -501,10 +507,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 0c19b00a1e0dda44db17fac06bdbf0ee, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
@@ -585,8 +589,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -662,8 +664,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &1504303588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -681,3 +681,12 @@ MonoBehaviour:
   - {fileID: 0}
   ResourceUse: []
   button: {fileID: 3059288986245851798}
+  otherButtons: []
+  available: 0
+  unlockButton: {fileID: 0}
+  unlocked: 0
+  text: {fileID: 0}
+  satModifier: 0
+  disModifier: 0
+  hiddenPlayer: {fileID: 0}
+  gainModifier: {fileID: 0}
