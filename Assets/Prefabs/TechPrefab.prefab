@@ -64,9 +64,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 0c19b00a1e0dda44db17fac06bdbf0ee, type: 3}
     m_FontSize: 14
-    m_FontStyle: 1
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9f143bccc9d54ef498f3c1153c33c253, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 040be0e474e09894ca320b08d9462cc8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -231,6 +231,7 @@ MonoBehaviour:
   - 0
   - 0
   - 0
+  pressedButton: 0
 --- !u!114 &2764219644465245536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -253,3 +254,11 @@ MonoBehaviour:
   - 0
   button: {fileID: 5697636511382365915}
   otherButtons: []
+  available: 0
+  unlockButton: {fileID: 0}
+  unlocked: 0
+  text: {fileID: 0}
+  satModifier: 0
+  disModifier: 0
+  hiddenPlayer: {fileID: 0}
+  gainModifier: {fileID: 0}

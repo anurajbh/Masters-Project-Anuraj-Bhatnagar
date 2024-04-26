@@ -64,9 +64,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 0c19b00a1e0dda44db17fac06bdbf0ee, type: 3}
     m_FontSize: 18
-    m_FontStyle: 1
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
@@ -234,6 +234,7 @@ MonoBehaviour:
   - 6
   - 4
   - 2
+  pressedButton: 0
 --- !u!114 &848322398306063387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -260,6 +261,10 @@ MonoBehaviour:
   unlockButton: {fileID: 0}
   unlocked: 0
   text: {fileID: 0}
+  satModifier: 0
+  disModifier: 0
+  hiddenPlayer: {fileID: 0}
+  gainModifier: {fileID: 0}
 --- !u!114 &3285837332778095605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -286,7 +291,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf193ee1f27de984aabec77fc0996357, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToUnlockButton: {fileID: 0}
   unlock: 0
 --- !u!1 &7597734759050208764
 GameObject:
@@ -352,7 +356,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 0c19b00a1e0dda44db17fac06bdbf0ee, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0

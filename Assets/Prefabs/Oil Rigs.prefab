@@ -63,10 +63,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 0c19b00a1e0dda44db17fac06bdbf0ee, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
@@ -142,10 +140,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 0c19b00a1e0dda44db17fac06bdbf0ee, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
@@ -221,10 +217,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 0c19b00a1e0dda44db17fac06bdbf0ee, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
@@ -305,8 +299,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 0a95ba7f74a63bd4c8586f829ee51f99, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -382,8 +374,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &913045874408132738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -405,6 +395,7 @@ MonoBehaviour:
   - 3
   - 4
   - 0
+  pressedButton: 0
 --- !u!114 &913045874408132741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -427,6 +418,14 @@ MonoBehaviour:
   - 0
   button: {fileID: 913045874408132742}
   otherButtons: []
+  available: 0
+  unlockButton: {fileID: 0}
+  unlocked: 0
+  text: {fileID: 0}
+  satModifier: 0
+  disModifier: 0
+  hiddenPlayer: {fileID: 0}
+  gainModifier: {fileID: 0}
 --- !u!1 &913045874548282085
 GameObject:
   m_ObjectHideFlags: 0
@@ -495,8 +494,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 0a95ba7f74a63bd4c8586f829ee51f99, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -572,8 +569,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &913045874548282095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -595,6 +590,7 @@ MonoBehaviour:
   - 0
   - 0
   - 0
+  pressedButton: 0
 --- !u!114 &913045874548282094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -617,6 +613,14 @@ MonoBehaviour:
   - 0
   button: {fileID: 913045874548282083}
   otherButtons: []
+  available: 0
+  unlockButton: {fileID: 0}
+  unlocked: 0
+  text: {fileID: 0}
+  satModifier: 0
+  disModifier: 0
+  hiddenPlayer: {fileID: 0}
+  gainModifier: {fileID: 0}
 --- !u!1 &913045875268460764
 GameObject:
   m_ObjectHideFlags: 0
@@ -680,10 +684,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 0c19b00a1e0dda44db17fac06bdbf0ee, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
@@ -764,8 +766,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 0a95ba7f74a63bd4c8586f829ee51f99, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -841,8 +841,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &913045875462211433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -865,6 +863,14 @@ MonoBehaviour:
   - 0
   button: {fileID: 913045875462211437}
   otherButtons: []
+  available: 0
+  unlockButton: {fileID: 0}
+  unlocked: 0
+  text: {fileID: 0}
+  satModifier: 0
+  disModifier: 0
+  hiddenPlayer: {fileID: 0}
+  gainModifier: {fileID: 0}
 --- !u!114 &913045875462211432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -886,6 +892,7 @@ MonoBehaviour:
   - 0
   - 0
   - 0
+  pressedButton: 0
 --- !u!1 &913045875580831787
 GameObject:
   m_ObjectHideFlags: 0
@@ -954,8 +961,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 0a95ba7f74a63bd4c8586f829ee51f99, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -1031,8 +1036,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &913045875580831798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1055,6 +1058,14 @@ MonoBehaviour:
   - 0
   button: {fileID: 913045875580831799}
   otherButtons: []
+  available: 0
+  unlockButton: {fileID: 0}
+  unlocked: 0
+  text: {fileID: 0}
+  satModifier: 0
+  disModifier: 0
+  hiddenPlayer: {fileID: 0}
+  gainModifier: {fileID: 0}
 --- !u!114 &913045875580831785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1073,6 +1084,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   modifyBy: []
+  pressedButton: 0
 --- !u!1001 &4880169556445490517
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1080,10 +1092,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 913045875462211436}
     m_Modifications:
-    - target: {fileID: 5697636511382365909, guid: de5fc653032c163418ca367d1a197636,
+    - target: {fileID: 2764219644465245536, guid: de5fc653032c163418ca367d1a197636,
         type: 3}
-      propertyPath: m_Name
-      value: Spar Platforms
+      propertyPath: gameResources.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2764219644465245536, guid: de5fc653032c163418ca367d1a197636,
+        type: 3}
+      propertyPath: gameResources.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2764219644465245536, guid: de5fc653032c163418ca367d1a197636,
+        type: 3}
+      propertyPath: gameResources.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3888885481491129813, guid: de5fc653032c163418ca367d1a197636,
+        type: 3}
+      propertyPath: gameResources.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3888885481491129813, guid: de5fc653032c163418ca367d1a197636,
+        type: 3}
+      propertyPath: gameResources.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3888885481491129813, guid: de5fc653032c163418ca367d1a197636,
+        type: 3}
+      propertyPath: gameResources.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5697636511122671223, guid: de5fc653032c163418ca367d1a197636,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 0c19b00a1e0dda44db17fac06bdbf0ee,
+        type: 3}
+    - target: {fileID: 5697636511122671223, guid: de5fc653032c163418ca367d1a197636,
+        type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5697636511382365908, guid: de5fc653032c163418ca367d1a197636,
         type: 3}
@@ -1190,35 +1238,10 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 3888885481491129813, guid: de5fc653032c163418ca367d1a197636,
+    - target: {fileID: 5697636511382365909, guid: de5fc653032c163418ca367d1a197636,
         type: 3}
-      propertyPath: gameResources.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3888885481491129813, guid: de5fc653032c163418ca367d1a197636,
-        type: 3}
-      propertyPath: gameResources.Array.data[1]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3888885481491129813, guid: de5fc653032c163418ca367d1a197636,
-        type: 3}
-      propertyPath: gameResources.Array.data[2]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2764219644465245536, guid: de5fc653032c163418ca367d1a197636,
-        type: 3}
-      propertyPath: gameResources.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2764219644465245536, guid: de5fc653032c163418ca367d1a197636,
-        type: 3}
-      propertyPath: gameResources.Array.data[1]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2764219644465245536, guid: de5fc653032c163418ca367d1a197636,
-        type: 3}
-      propertyPath: gameResources.Array.data[2]
-      value: 
+      propertyPath: m_Name
+      value: Spar Platforms
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de5fc653032c163418ca367d1a197636, type: 3}
