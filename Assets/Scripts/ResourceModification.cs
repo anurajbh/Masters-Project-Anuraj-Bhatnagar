@@ -114,6 +114,10 @@ public class ResourceModification : MonoBehaviour
         int ctr = 0;
         while(i<gameResources.Count)
         {
+            if(gameResources[i] == null)
+            {
+                return;
+            }
             if ((gameResources[i].value - ResourceUse[i])<0 ||  pressed &&  gameObject.tag == "Research" || pressedOther || gameObject.tag == "Facility" && gainModifier.pressedButton)
             {
                 available = false;
