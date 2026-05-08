@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class HiddenPlayer : MonoBehaviour
-{
+{   // just a test comment for demonstration purpose
     // Start is called before the first frame update
     public float nonRenew = 1000f;
     public float wealth = 1000f;
